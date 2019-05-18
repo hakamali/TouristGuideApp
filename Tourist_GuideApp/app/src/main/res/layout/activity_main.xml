@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+<!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolBar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+<!--</android.support.v7.widget.Toolbar>-->
+    <com.smarteist.autoimageslider.SliderLayout
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:weightSum="5"
+            android:layout_marginTop="10dp"
+            android:background="#a4031f"
+            android:layout_margin="20dp"
+            android:padding="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#ff0000"
+                    android:background="@drawable/custom_btn"
+                    android:id="@+id/generalinfo"
+                    android:text="General Info"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/cities"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#ff0000"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_btn"
+                    android:text="Cities"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#ff0000"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_btn"
+                    android:text="Tourist Centers"
+                    android:id="@+id/touristcenters"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/serviceinfo"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#ff0000"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_btn"
+                    android:text="Service Info"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/help"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:textSize="30sp"
+                    android:textColor="#ff0000"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_btn"
+                    android:text="Help"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

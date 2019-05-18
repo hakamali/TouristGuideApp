@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hakim.tourist_guideapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Genralinfo" />
+        <activity android:name=".Cities" />
+        <activity android:name=".Touristcenters" />
+        <activity android:name=".Serviceinfo" />
+        <activity android:name=".Help" />
+        <activity android:name=".Sahiwalresturents" />
+        <activity android:name=".Islamabadresturents" />
+        <activity android:name=".Peshawarresturents" />
+        <activity android:name=".Multanresturents" />
+        <activity android:name=".Lahoreresturents" />
+        <activity android:name=".Anayarestswl" />
+        <activity android:name=".Fazlehaqderarestswl" />
+        <activity android:name=".Florarestswl" />
+        <activity android:name=".Kingrestswl" />
+        <activity android:name=".Merabrestswl" />
+        <activity android:name=".Sunehrirestswl" />
+        <activity android:name=".Usmaniarestswl" />
+        <activity android:name=".Babafridprkswl" />
+        <activity android:name=".Fridiaprkswl" />
+        <activity android:name=".Majeedprkswl" />
+        <activity android:name=".Imtiiazprkswl" />
+        <activity android:name=".Sahiwal_City_Info" />
+        <activity android:name=".Sahiwalparks" />
+        <activity android:name=".Sahiwal_Old_Places" />
+        <activity android:name=".Gujrat_City_Info" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Gujrat_Parks" />
+        <activity android:name=".Gujrat_Resturents" />
+        <activity android:name=".Gujraat_Parks" />
+        <activity android:name=".Gujrat_Old_Places" />
+        <activity android:name=".Islamabad_City_Info" />
+        <activity android:name=".Islamabad_Parks" />
+        <activity android:name=".Islamabad_Old_Places" />
+        <activity android:name=".Peshawar_City_Info" />
+        <activity android:name=".Peshawar_Parks" />
+        <activity android:name=".Peshawar_Old_Places" />
+        <activity android:name=".Multan_City_Info" />
+        <activity android:name=".Multan_Parks" />
+        <activity android:name=".Mutan_Old_Places" />
+        <activity android:name=".Lahore_City_Info" />
+        <activity android:name=".Lahore_Parks" />
+        <activity android:name=".Lahore_Places"></activity>
+    </application>
+
+</manifest>

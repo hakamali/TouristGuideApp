@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sahiwal_City_Info">
+    <Button
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:textColor="#ff0000"
+        android:background="@drawable/custom_btn"
+        android:id="@+id/sahiwal_Resturents"
+        android:text="Sahiwal_Resturents"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/sahiwal_parks"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#ff0000"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_btn"
+        android:text="Sahiwal_Parks"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#ff0000"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_btn"
+        android:text="Sahiwal_Old_Places"
+        android:id="@+id/sahiwal_places"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
